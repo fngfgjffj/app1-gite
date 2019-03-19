@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<widgetxmlns ="http://www.w3.org/ns/widgets"
+xmlns:gap="http://phonegap.com/ns/1.0"
+id ="com.phonegap.app1"
+version ="1.0.0">
+
+<name> app1-2019Datos del Dispositivo >/name>
+
+<descripcion>
+Aplicacion que  nos muestra la informacion diferente al dispositivo movil
+</descripcion>
+
+<author href0"https://buil.phonegap.com" email="amarianateutle4397@gmail.com">
+mariana perez teutle
+</author>
+
+<!--Personalizada la aplicacion y la plataforma -->
+<preference name="orientation" value="defailt"/>
+<!-- <preference name0"orientation" value="portrait"/>
+<preference name="orientation" value="landscape"/> -->
+<preference name="target-device" value="universal"/>
+<preference name="fullscreen" value="true" />
+<preference name="android-installLocation" value="auto" />
+<perference name="permissions"value="INTERNET"/>
+
+<!-- Plugins-->
+<plugin name="cordova-plugin-device" spec="~1.1.4"/>
+<plugin name="cordova-plugin-vibration"spec="~2.1.3"/>
+<plugin name="cordova-plugin-vibration2spec="~13.1"/>
+
+<!-- <plugin name="cordova-pligin-geolacation" source="npm"/> -->
+
+
+<!--Colocar icono app -->
+
+<icon src="res/android/mdpi.png" />
+
+</widget>
+
